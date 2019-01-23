@@ -2,7 +2,7 @@
 
 A docker container running [smcroute](https://github.com/troglobit/smcroute) (a static multicast routing daemon).
 
-# Basic usages
+## Basic usages
 
 ### Run the daemon
 `docker run -d --name smcroute --net=host adamcathersides/smcroute:latest`
@@ -18,3 +18,6 @@ A docker container running [smcroute](https://github.com/troglobit/smcroute) (a 
 
 ### Leave a mulicast group
 `docker exec smcroute smcroute -l eth0 239.1.1.1`
+
+#### Source
+https://github.com/adamcathersides/smcroute_docker
