@@ -1,6 +1,6 @@
 # Smcroute 
 
-A super simple docker container running [smcroute](https://github.com/troglobit/smcroute) (a static multicast routing daemon).
+A docker container running [smcroute](https://github.com/troglobit/smcroute) (a static multicast routing daemon).
 
 # Basic usages
 
