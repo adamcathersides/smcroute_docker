@@ -7,6 +7,9 @@ A docker container running [smcroute](https://github.com/troglobit/smcroute) (a 
 ### Run the daemon
 `docker run -d --name smcroute --net=host adamcathersides/smcroute:latest`
 
+### Run with a config file
+`docker run -d --name smcroute --net=host adamcathersides/smcroute:latest -f config.conf`
+
 ### Add a route
 `docker exec smcroute smcroute -a eth0 192.168.1.1 239.1.1.1 eth1`
 
