@@ -1,6 +1,7 @@
 # Smcroute 
 
 A docker container running [smcroute](https://github.com/troglobit/smcroute) (a static multicast routing daemon).
+By running in `net=host` mode it allows the container to adjust the hosts mroute tables.
 
 ## Basic usages
 
